@@ -1,0 +1,57 @@
+{
+  "best_metric": 0.05727410316467285,
+  "best_model_checkpoint": "./bert_model\\checkpoint-500",
+  "epoch": 3.6231884057971016,
+  "eval_steps": 500,
+  "global_step": 500,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.72,
+      "learning_rate": 4.27536231884058e-06,
+      "loss": 0.0458,
+      "step": 100
+    },
+    {
+      "epoch": 1.45,
+      "learning_rate": 3.55072463768116e-06,
+      "loss": 0.01,
+      "step": 200
+    },
+    {
+      "epoch": 2.17,
+      "learning_rate": 2.8260869565217393e-06,
+      "loss": 0.0005,
+      "step": 300
+    },
+    {
+      "epoch": 2.9,
+      "learning_rate": 2.101449275362319e-06,
+      "loss": 0.0099,
+      "step": 400
+    },
+    {
+      "epoch": 3.62,
+      "learning_rate": 1.3768115942028987e-06,
+      "loss": 0.0101,
+      "step": 500
+    },
+    {
+      "epoch": 3.62,
+      "eval_loss": 0.05727410316467285,
+      "eval_runtime": 41.8111,
+      "eval_samples_per_second": 6.601,
+      "eval_steps_per_second": 0.837,
+      "step": 500
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 690,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "total_flos": 525432777553920.0,
+  "trial_name": null,
+  "trial_params": null
+}
